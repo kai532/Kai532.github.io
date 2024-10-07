@@ -1,17 +1,8 @@
 body {
     margin: 0;
     padding: 0;
-}
-
-body, html {
     height: 100%;
-    /* The image used */
     background-image: url("media/achtergrond.jpg");
-  
-    /* Full height */
-    height: 100%;
-  
-    /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -178,7 +169,7 @@ article {
 
 /*header*/
 
-/* table */
+/* dashboard */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -259,6 +250,10 @@ input[type="radio"] {
 /* faq */
 
 /*feed*/
+.bg {
+    background: url(media/achtergrond.jpg);
+    background-repeat: repeat;
+}
 .feed {
     max-width: 900px;
     margin: 0 auto;
@@ -273,29 +268,29 @@ input[type="radio"] {
     color:rgb(111, 39, 255);
 }
 
-.post {
+.feed-info {
     margin-bottom: 40px;
     padding: 20px;
     background-color: rgba(255, 255, 255, 0.1); 
     border-radius: 10px;
 }
 
-.post h2, p{
+.feed-info h2, p{
     margin-top: 0;
     color:aliceblue; 
 }
 
-.post p {
+.feed-info p {
     font-size: 1.2em;
 }
 
-.post a {
+.feed-info a {
     color: rgb(107, 118, 128);
     text-decoration: none;
     font-weight: bold;
 }
 
-.post a:hover {
+.feed-info a:hover {
     text-decoration: underline;
 }
 
