@@ -5,8 +5,8 @@
   "description": "A HZICT Programming Basics Assignment.",
   "main": "index.html",
   "scripts": {
-    "lint": "eslint -c ./eslint.config.mjs",
-    "lint:fix": "eslint -c ./eslint.config.mjs ./assets/**/*.js --fix"
+    "lint": "eslint -d ./eslint.config.mjs",
+    "lint:fix": "eslint -d ./eslint.config.mjs ./assets/**/*.js --fix"
   },
   "author": "kai",
   "license": "MIT",

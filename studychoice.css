@@ -1,0 +1,25 @@
+body {
+    background-image: url("media/achtergrond.jpg");
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+  }
+
+.study {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+.study-background {
+    background: rgba(0, 0, 0, 0.8); 
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 900px;
+}    
+
+h1 {
+    color: rgb(111, 39, 255);
+}

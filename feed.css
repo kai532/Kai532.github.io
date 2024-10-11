@@ -1,0 +1,49 @@
+/*feed*/
+body {
+    background-image: url("media/achtergrond.jpg");
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+  }
+
+
+.feed {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.8); 
+    border-radius: 10px;
+}
+
+.feed h1{
+    text-align: center;
+    font-size: 48px;
+    color:rgb(111, 39, 255);
+}
+
+.feed-info {
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1); 
+    border-radius: 10px;
+}
+
+.feed-info h2, p{
+    margin-top: 0;
+    color:aliceblue; 
+}
+
+.feed-info p {
+    font-size: 19px;
+}
+
+.feed-info a {
+    color: rgb(107, 118, 128);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.feed-info a:hover {
+    text-decoration: underline;
+}
+

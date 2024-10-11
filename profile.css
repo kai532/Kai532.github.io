@@ -1,0 +1,56 @@
+/*profile*/
+body {
+    background-image: url("media/achtergrond.jpg");
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+  }
+
+.profile h1{
+    color: rgb(111, 39, 255);
+}
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.profile-background {
+    background: rgba(0, 0, 0, 0.8); 
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 900px;
+}
+
+.profile-stuff {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profile-stuff img {
+    border-radius: 10%;
+    width: 200px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.profile-stuff article {
+    text-align: left;
+    flex: 1;
+}
+
+.hobby{
+    color: aliceblue;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+article {
+    font-size: 19px;
+}

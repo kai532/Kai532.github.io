@@ -1,0 +1,73 @@
+/*index page*/
+body {
+    background-image: url("media/achtergrond.jpg");
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+  }
+
+
+.index {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    margin-top: 50px;
+    color: aliceblue;
+}
+
+.index h1 {
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.inhoud {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.inhoud div {
+    flex: 1;
+    margin: 10px;
+}
+
+.inhoud img {
+    width: 350px;
+    max-width: 500px;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+}
+
+p {
+    font-size: 19px;
+    line-height: 26px;
+}
+
+ul {
+    font-size: 19px;
+    list-style-type: disc;
+    padding-left: 40px;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+.side-text {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    margin-top: 50px;
+    color: aliceblue; 
+}
+
+.side-text a{
+    display: block;
+}

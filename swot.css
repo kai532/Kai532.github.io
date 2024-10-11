@@ -1,0 +1,52 @@
+/*swot*/
+body {
+    background-image: url("media/achtergrond.jpg");
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+  }
+
+
+.swot {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.8); 
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    color: rgb(111, 39, 255);
+}
+
+.swot-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.swot-item {
+    background-color: rgba(255, 255, 255, 0.1); 
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.swot-item h2 {
+    color: aliceblue;
+    font-size: 29px;
+}
+
+.swot-item p {
+    font-size: 19px;
+    line-height: 26px;
+    color: aliceblue;
+}
+
+@media (max-width: 768px) {
+    .swot-grid {
+        grid-template-columns: 1fr; 
+    }
+}

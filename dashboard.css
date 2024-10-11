@@ -1,0 +1,47 @@
+/* dashboard */
+body {
+    background-image: url("media/achtergrond.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+    color: rgb(223, 218, 218);
+}
+th {
+    background-color: #6a7af4;
+}
+input[type="text"] {
+    width: 100%;
+    padding: 5px;
+}
+select {
+    width: 100%;
+    padding: 5px;
+}
+
+
+.progress-container {
+    width: 100%;
+    background-color: #f3f3f3;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.progress-bar {
+    width: 0%;
+    height: 30px;
+    background-color: #4caf50;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+}
