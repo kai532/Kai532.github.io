@@ -1,8 +1,8 @@
 <html>
 
 <head>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="dashboard.css">
+    <link rel="stylesheet" href="css/dashboard.css">
+    <link rel="stylesheet" href="css/styles.css">
     <header>
         <nav class="hoofd">
             <div class="link">
@@ -10,16 +10,17 @@
                     <img src="media/hz-university-of-applied-sciences.png" alt="hz logo" width="200">
                 </div>
                 <ul>
-                    <li><a href="index.html" target="_blank">Index</a></li>
-                    <li><a href="profile.html.html" target="_blank">Profile</a></li>
-                    <li><a href="dashboard.html" target="_blank">Dashboard</a></li>
-                    <li><a href="feed.html" target="_blank">Feed</a></li>
-                    <li><a href="faq.html" target="_blank">Faq</a></li>
+                    <li><a href="index.html" >Index</a></li>
+                    <li><a href="profile.html.html" >Profile</a></li>
+                    <li><a href="dashboard.html" >Dashboard</a></li>
+                    <li><a href="feed.html" >Feed</a></li>
+                    <li><a href="faq.html" >Faq</a></li>
                 </ul>
             </div>
         </nav>
     </header>
 </head>
+
 <body>
     <table>
         <thead>
@@ -170,8 +171,8 @@
             </tr>
         </tbody>
     </table>
-    <div class="progress-container">
-        <div id="progress-bar" class="progress-bar">0%</div>
+    <div class="progress">
+        <div id="progressbar" class="progressbar">0%</div>
     </div>
 
     <article id="current-ecs">Current EC's 0 out of 60</article>
@@ -181,19 +182,19 @@
             const totalECs = 60;
             let completedECs = 0;
             const rows = document.querySelectorAll('tbody tr');
-            
+
             rows.forEach(row => {
                 const status = row.querySelector('select').value;
                 const ec = parseFloat(row.querySelector('.ecs').textContent);
-                
+
                 if (status === 'Completed') {
                     completedECs += ec;
                 }
             });
-            
+
             const progress = (completedECs / totalECs) * 100;
-            document.getElementById('progress-bar').style.width = progress + '%';
-            document.getElementById('progress-bar').textContent = Math.floor(progress) + '%';
+            document.getElementById('progressbar').style.width = progress + '%';
+            document.getElementById('progressbar').textContent = Math.floor(progress) + '%';
             document.getElementById('current-ecs').textContent = `Current EC's ${completedECs} out of ${totalECs}`;
         }
     </script>
